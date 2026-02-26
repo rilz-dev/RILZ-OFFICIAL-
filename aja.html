@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOKOS & BUG STORE | Kece & Murah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: white; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .gradient-text { background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="p-5 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold tracking-tighter gradient-text">BUG-STORE</h1>
+        <div class="space-x-6 hidden md:block">
+            <a href="#produk" class="hover:text-cyan-400">Produk</a>
+            <a href="#testi" class="hover:text-cyan-400">Testi</a>
+            <a href="https://wa.me" class="bg-cyan-500 px-4 py-2 rounded-lg font-bold hover:bg-cyan-600 transition">Order Via WA</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-20 text-center px-4">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Solusi <span class="gradient-text">Nokos & Bug</span> No Delay!</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-8">Sedia nomor kosong luar negeri, murbug, dan jasa bug dengan proses kilat dan harga pelajar.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#produk" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">Lihat List Harga</a>
+            <a href="https://t.me" class="glass px-8 py-3 rounded-full font-bold hover:bg-slate-800 transition"><i class="fab fa-telegram mr-2"></i>Gabung Grup</a>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section id="produk" class="max-w-6xl mx-auto px-4 py-10">
+        <h3 class="text-3xl font-bold mb-10 text-center">Layanan <span class="text-cyan-400">Terlaris</span></h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
+                <div class="text-cyan-400 text-4xl mb-4"><i class="fas fa-sim-card"></i></div>
+                <h4 class="text-xl font-bold mb-2">Nokos Luar</h4>
+                <p class="text-gray-400 mb-4 text-sm">Tersedia wilayah US, UK, Indo, dll. Garansi lolos OTP!</p>
+                <p class="text-2xl font-bold mb-4">Rp 5.000 <span class="text-xs font-light text-gray-500">/nomer</span></p>
+                <a href="https://wa.me?text=Bang+beli+nokos" class="block text-center bg-cyan-500 py-2 rounded-lg font-bold">Beli Sekarang</a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform border-cyan-500 border">
+                <div class="text-cyan-400 text-4xl mb-4"><i class="fas fa-bug"></i></div>
+                <h4 class="text-xl font-bold mb-2">Murbug VIP</h4>
+                <p class="text-gray-400 mb-4 text-sm">Paket bug hemat untuk keperluan push atau scraping. Anti limit.</p>
+                <p class="text-2xl font-bold mb-4">Rp 25.000 <span class="text-xs font-light text-gray-500">/bulan</span></p>
+                <a href="https://wa.me?text=Bang+beli+murbug" class="block text-center bg-cyan-500 py-2 rounded-lg font-bold shadow-lg shadow-cyan-500/20">Ambil Promo</a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="glass p-6 rounded-2xl hover:scale-105 transition-transform">
+                <div class="text-cyan-400 text-4xl mb-4"><i class="fas fa-code"></i></div>
+                <h4 class="text-xl font-bold mb-2">Jasa Bug Custom</h4>
+                <p class="text-gray-400 mb-4 text-sm">Request bug khusus sesuai kebutuhanmu. Fast respons.</p>
+                <p class="text-2xl font-bold mb-4 italic text-sm text-gray-400 italic">Harga Nego Sampai Jadi</p>
+                <a href="https://wa.me?text=Bang+tanya+jasa+bug" class="block text-center bg-slate-700 py-2 rounded-lg font-bold">Konsultasi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-20 border-t border-gray-800 p-10 text-center">
+        <p class="text-gray-500 text-sm mb-4">© 2024 BUG-STORE - All Rights Reserved.</p>
+        <div class="flex justify-center space-x-4 text-gray-400">
+            <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-white"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="hover:text-white"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
